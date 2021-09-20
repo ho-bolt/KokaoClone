@@ -1,0 +1,53 @@
+.chating {
+  display: flex;
+
+  justify-content: space-between;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+}
+.chating-zone :hover {
+  border-radius: 30px;
+  background-color: #fae100;
+  padding: 10px 10px;
+}
+
+.chating-friends {
+  width: 50px;
+  height: 50px;
+}
+.chating-friends img {
+  width: 50px;
+  height: 50px;
+}
+.chating-notify {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chating-notify span {
+  color: whitesmoke;
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.chating-message h1 {
+  font-weight: 800;
+  font-size: 30px;
+}
+.chating-message span {
+  opacity: 0.5;
+}
+.chating-message {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+.chating-zone {
+  display: flex;
+  flex-direction: column;
+}

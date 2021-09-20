@@ -1,0 +1,94 @@
+.navbar {
+  margin-top: -30px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-title {
+  font-weight: 900;
+  font-size: 30px;
+}
+.navbar-icons i {
+  margin-right: 10px;
+}
+.navbar-icons {
+  position: relative;
+}
+.navbar-setting {
+  display: block;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  left: 65px;
+  bottom: 30px;
+  background-color: tomato;
+  border-radius: 50px;
+}
+.friends-display {
+  margin-top: 15px;
+  background-color: #fae100;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  align-items: center;
+  border-radius: 10px;
+}
+.friends-display i,
+span {
+  margin-right: 10px;
+}
+.friends-display span {
+  font-weight: 600;
+}
+.friends-user-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.friends-user-pic img {
+  width: 120px;
+  height: 120px;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 2px 2px 15px #fae100;
+}
+.friends-user {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.friends-user-pic span {
+  font-size: larger;
+  font-weight: bolder;
+  margin-left: 30px;
+}
+.channel-friends {
+  margin-top: 20px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.channel {
+  border-top: 1px solid #fae100;
+
+  border-radius: 3px;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.channel-friends img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  margin-right: 15px;
+}
+.channel-friends span {
+  font-weight: 900;
+  font-size: larger;
+}
+.channel-next {
+  margin-top: 10px;
+}
+.channel-next span {
+  opacity: 0.5;
+}

@@ -1,0 +1,78 @@
+.user-pic img {
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+}
+.user {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user-pic {
+  margin-top: 15px;
+  display: flex;
+}
+.user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px 15px;
+}
+.user-number {
+  margin-top: 5px;
+  color: var(--font-color);
+}
+.user-info i {
+  margin-left: 10px;
+  color: tomato;
+}
+.user-name {
+  font-size: larger;
+}
+.icon-rows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+.icon-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-row i {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.icon-row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+.sug {
+  display: flex;
+  border-top: var(--main-border);
+  flex-direction: column;
+  padding: 30px 30px;
+}
+.sug_img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  margin-bottom: 15px;
+}
+.sug_img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sug-title {
+  margin-bottom: 20px;
+}
+.sug-title h2 {
+  font-weight: 900;
+  font-size: larger;
+}
